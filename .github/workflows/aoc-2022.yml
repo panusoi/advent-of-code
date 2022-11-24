@@ -1,0 +1,36 @@
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 2022/**
+  workflow_dispatch:
+
+name: Advent of Code 2022 CI
+
+jobs:
+  test:
+    name: Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+      - name: Day00
+        working-directory: "./2022/day00"
+        run: cargo test
+      # - name: Day01
+      #  working-directory: "./2022/day00"
+      #  run: cargo test
+  benchmark:
+    name: Benchmark
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+      - working-directory: "./2022/runner"
+        name: Run Benchmark
+        run: cargo run --release
