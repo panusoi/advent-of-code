@@ -3,17 +3,11 @@ fn parse_input(input: &str) -> Vec<usize> {
 }
 
 fn a(input: &str) -> usize {
-    return parse_input(input)
-        .windows(2)
-        .filter(|w| w[0] < w[1])
-        .count();
+    return parse_input(input).len();
 }
 
 fn b(input: &str) -> usize {
-    return parse_input(input)
-        .windows(4)
-        .filter(|w| w[0] < w[3])
-        .count();
+    return parse_input(input).len();
 }
 
 pub fn day00a() -> usize {
@@ -30,17 +24,17 @@ mod tests {
 
     #[test]
     fn test_a() {
-        assert_eq!(a(include_str!("../example.txt")), 7);
+        assert_eq!(a(include_str!("../example.txt")), 1);
     }
 
     #[test]
     fn test_b() {
-        assert_eq!(b(include_str!("../example.txt")), 5);
+        assert_eq!(b(include_str!("../example.txt")), 1);
     }
 
     #[test]
     fn day00() {
-        assert_eq!(day00a(), 1374);
-        assert_eq!(day00b(), 1418);
+        assert_eq!(day00a(), 1);
+        assert_eq!(day00b(), 1);
     }
 }
