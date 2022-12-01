@@ -1,5 +1,5 @@
-use day00;
+use day01;
 
 pub fn puzzles() -> &'static [(&'static str, fn() -> usize, fn() -> usize)] {
-    &[("day00", day00::day00a, day00::day00b)]
+    &[("day01", day01::day01a, day01::day01b)]
 }

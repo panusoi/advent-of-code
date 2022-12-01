@@ -17,12 +17,9 @@ jobs:
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
-      - name: Day00
-        working-directory: "./2022/day00"
+      - name: Day01
+        working-directory: "./2022/day01"
         run: cargo test
-      # - name: Day01
-      #  working-directory: "./2022/day00"
-      #  run: cargo test
   benchmark:
     name: Benchmark
     runs-on: ubuntu-latest
