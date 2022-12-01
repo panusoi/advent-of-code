@@ -1,6 +1,12 @@
 # Advent of Code
 
-Solutions to the Advent of Code puzzles
+Solutions to the [Advent of Code](https://adventofcode.com/) puzzles
+
+## Languages
+
+| Year | Language |
+| ---- | -------- |
+| 2022 | [Rust](https://www.rust-lang.org/)     |
 
 ## Puzzles Completed
 
@@ -31,7 +37,6 @@ Solutions to the Advent of Code puzzles
 | 23   |      |
 | 24   |      |
 | 25   |      |
-
 
 ## License
 
