@@ -12,8 +12,8 @@ Solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 
 | Year | 2022 |
 | ---- | ---- |
-| 1    |      |
-| 2    |      |
+| 1    | ✨✨ |
+| 2    | ✨✨ |
 | 3    |      |
 | 4    |      |
 | 5    |      |
