@@ -9,29 +9,6 @@ on:
 name: Advent of Code 2022 CI
 
 jobs:
-  test:
-    name: Tests
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-      - name: Day01
-        working-directory: "./2022/day01"
-        run: cargo test
-      - name: Day02
-        working-directory: "./2022/day02"
-        run: cargo test
-      - name: Day03
-        working-directory: "./2022/day03"
-        run: cargo test
-      - name: Day04
-        working-directory: "./2022/day04"
-        run: cargo test
-      - name: Day05
-        working-directory: "./2022/day05"
-        run: cargo test
   benchmark:
     name: Benchmark
     runs-on: ubuntu-latest
