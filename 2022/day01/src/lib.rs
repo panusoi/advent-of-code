@@ -35,12 +35,12 @@ fn b(input: &str) -> usize {
     return top3;
 }
 
-pub fn day01a() -> usize {
-    return a(include_str!("../input.txt"));
+pub fn day01a() -> String {
+    return a(include_str!("../input.txt")).to_string();
 }
 
-pub fn day01b() -> usize {
-    return b(include_str!("../input.txt"));
+pub fn day01b() -> String {
+    return b(include_str!("../input.txt")).to_string();
 }
 
 #[cfg(test)]
@@ -59,7 +59,7 @@ mod tests {
 
     #[test]
     fn day01() {
-        assert_eq!(day01a(), 72070);
-        assert_eq!(day01b(), 211805);
+        assert_eq!(day01a(), "72070");
+        assert_eq!(day01b(), "211805");
     }
 }

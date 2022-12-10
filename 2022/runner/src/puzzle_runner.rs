@@ -20,7 +20,7 @@ fn is_valid_puzzle_day(day_arg: &str) -> usize {
 }
 
 fn run_puzzle(
-    puzzle: &(&str, fn() -> usize, fn() -> usize),
+    puzzle: &(&str, fn() -> String, fn() -> String),
 ) -> (timing::TimingResult, timing::TimingResult) {
     let day = puzzle.0;
 
