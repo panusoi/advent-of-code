@@ -29,6 +29,9 @@ jobs:
       - name: Day04
         working-directory: "./2022/day04"
         run: cargo test
+      - name: Day05
+        working-directory: "./2022/day05"
+        run: cargo test
   benchmark:
     name: Benchmark
     runs-on: ubuntu-latest
