@@ -8,7 +8,7 @@ use day07;
 use day08;
 use day09;
 use day10;
-// use day11;
+use day11;
 // use day13;
 // use day14;
 // use day15;
@@ -36,7 +36,7 @@ pub fn puzzles() -> &'static [(&'static str, fn() -> String, fn() -> String)] {
         ("day08", day08::day08a, day08::day08b),
         ("day09", day09::day09a, day09::day09b),
         ("day10", day10::day10a, day10::day10b),
-        // ("day11", day11::day11a, day11::day11b),
+        ("day11", day11::day11a, day11::day11b),
         // ("day12", day12::day12a, day12::day12b),
         // ("day13", day13::day13a, day13::day13b),
         // ("day14", day14::day14a, day14::day14b),

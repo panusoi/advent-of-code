@@ -22,7 +22,7 @@ Solutions to the [Advent of Code](https://adventofcode.com/) puzzles
 | 8    | <ul><li>- [x] Part 1</li><li>- [x] Part 2</li></ul>  |
 | 9    | <ul><li>- [x] Part 1</li><li>- [x] Part 2</li></ul>  |
 | 10   | <ul><li>- [x] Part 1</li><li>- [x] Part 2</li></ul>  |
-| 11   |      |
+| 11   | <ul><li>- [x] Part 1</li><li>- [x] Part 2</li></ul>  |
 | 12   |      |
 | 13   |      |
 | 14   |      |
